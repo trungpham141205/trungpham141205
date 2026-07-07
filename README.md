@@ -1,5 +1,3 @@
-<h1 align="center">Hi 👋, I'm Trung Pham</h1>
-
 <h3 align="center">
 Frontend Digital IC Design | RTL Design | Verification | RISC-V SoC | FPGA
 </h3>

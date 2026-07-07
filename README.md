@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Trung Pham</h1>
 
 <h3 align="center">
-Digital IC Design | RTL Design & Verification | RISC-V SoC | FPGA
+Frontend Digital IC Design | RTL Design | Verification | RISC-V SoC | FPGA
 </h3>
 
 <p align="center">
@@ -21,93 +21,97 @@ Digital IC Design | RTL Design & Verification | RISC-V SoC | FPGA
 ## About Me
 
 I am an Electronics and Telecommunications Engineering student at  
-**VNUHCM - University of Science**, focusing on **Digital IC Design**, **RTL Design**, **Verification**, **FPGA**, and **RISC-V based SoC development**.
+**VNUHCM - University of Science**, focusing on **Frontend Digital IC Design**, **RTL Design**, **Functional Verification**, **RISC-V SoC**, and **FPGA prototyping**.
 
-My main interests are:
-
-- RTL Design using Verilog and SystemVerilog
-- Digital Design and Functional Verification
-- RISC-V RV32I Processor Architecture
-- AXI4-Lite and APB Bus Protocols
-- FPGA Prototyping
-- Low-Power Digital IC Design
-- Hardware Security and AES Acceleration
+My engineering interests are centered around building clean, verifiable, and timing-aware digital hardware systems from RTL to FPGA prototype.
 
 ---
 
 ## Current Focus
 
+- Designing RTL modules using **Verilog** and **SystemVerilog**
 - Building a lightweight **RISC-V SoC** based on **PicoRV32**
-- Designing **AXI4-Lite Interconnect**
-- Designing **AXI-to-APB Bridge**
-- Developing **UART/SPI peripheral subsystem**
-- Integrating **AES hardware accelerator**
-- Practicing **RTL timing verification** with SystemVerilog
+- Designing **AXI4-Lite interconnect** and **AXI-to-APB bridge**
+- Developing **UART/SPI memory-mapped peripherals**
+- Practicing **testbench development**, waveform debugging, and timing-aware verification
+- Exploring **hardware security** through AES acceleration and bus-level isolation
 
 ---
 
-## Tech Stack
+## Technical Skills
 
-### Hardware Description Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Verilog-RTL-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SystemVerilog-Verification-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/VHDL-Basic-lightgrey?style=for-the-badge" />
-</p>
-
-### Digital IC Design
+### Hardware Description & Verification
 
 <p>
-  <img src="https://img.shields.io/badge/RTL%20Design-Digital%20IC-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FSM-Sequential%20Logic-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Timing%20Analysis-Specify%20Block-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Testbench-Verification-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Verilog-RTL%20Design-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SystemVerilog-RTL%20%26%20TB-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Testbench-Functional%20Verification-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Waveform-Debugging-green?style=for-the-badge" />
 </p>
 
-### SoC and Computer Architecture
+### Digital IC / RTL Design
+
+<p>
+  <img src="https://img.shields.io/badge/Combinational%20Logic-RTL-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Sequential%20Logic-RTL-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FSM-Control%20Logic-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Datapath-Digital%20Design-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Timing%20Aware%20Design-RTL-red?style=for-the-badge" />
+</p>
+
+### SoC & Computer Architecture
 
 <p>
   <img src="https://img.shields.io/badge/RISC--V-RV32I-black?style=for-the-badge&logo=riscv&logoColor=white" />
+  <img src="https://img.shields.io/badge/PicoRV32-CPU%20Core-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AXI4--Lite-Bus%20Protocol-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/APB-Bus%20Protocol-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/UART-Peripheral-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SPI-Peripheral-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Memory--Mapped%20I%2FO-SoC-orange?style=for-the-badge" />
+</p>
+
+### Interfaces & FPGA Platforms
+
+<p>
+  <img src="https://img.shields.io/badge/UART-Serial%20Interface-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SPI-Serial%20Interface-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DE1--SoC-FPGA-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/VC707-FPGA-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ZCU102-FPGA-green?style=for-the-badge" />
 </p>
 
 ### Tools
 
 <p>
-  <img src="https://img.shields.io/badge/Vivado-FPGA-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Quartus%20Prime-FPGA-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/QuestaSim-Simulation-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ModelSim-Simulation-lightgrey?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Cadence%20Virtuoso-IC%20Design-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Vivado-FPGA%20Design-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Quartus%20Prime-FPGA%20Design-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/QuestaSim-RTL%20Simulation-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ModelSim-RTL%20Simulation-lightgrey?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Linux-RHEL-black?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-Version%20Control-red?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 ---
 
-## Featured Projects
+## Featured RTL Projects
 
 ### RISC-V SoC Development
 
-Lightweight RISC-V based SoC architecture using **PicoRV32**, **AXI4-Lite interconnect**, **SRAM**, **AXI-to-APB bridge**, **UART/SPI peripherals**, and **AES hardware accelerator**.
+A lightweight RISC-V based SoC architecture using **PicoRV32**, **AXI4-Lite interconnect**, **SRAM**, **AXI-to-APB bridge**, **UART/SPI peripherals**, and **AES hardware accelerator**.
 
-Main design targets:
+Design targets:
 
 - Minimal RV32I-based SoC
 - Memory-mapped peripheral architecture
 - AXI4-Lite control bus
 - APB peripheral subsystem
-- FPGA prototyping
-- Hardware security extension
+- FPGA bring-up and prototyping
+- Bus-level isolation for hardware security
 
 ---
 
 ### RTL Timing Verification
 
-RTL projects focusing on both functional correctness and timing behavior.
+RTL projects focusing on both **functional correctness** and **timing behavior**.
 
 Included designs:
 
@@ -116,35 +120,46 @@ Included designs:
 - D Flip-Flop with timing checks
 - Setup/Hold violation testbench
 - Recovery/Removal timing verification
+- Worst-case timing path analysis
 - Waveform-based debugging
 
 ---
 
-### CMOS Digital IC Design
+### Bus Protocol & Peripheral Design
 
-Digital CMOS design projects using transistor-level implementation and layout verification.
+RTL modules for SoC-level communication and peripheral integration.
 
-Included designs:
+Current design focus:
 
-- 1-bit CMOS Full Adder
-- 4-bit Ripple Carry Adder
-- Schematic simulation
-- Layout design
-- DRC/LVS verification
+- AXI4-Lite master/slave transaction behavior
+- AXI4-Lite interconnect
+- AXI-to-APB bridge
+- APB UART peripheral
+- APB SPI peripheral
+- Register map design
+- Memory-mapped software access
 
 ---
 
-### Analog IC Design
+## Learning Roadmap
 
-Two-stage CMOS operational amplifier design with schematic, layout, and performance verification.
-
-Design focus:
-
-- Gain-bandwidth product
-- Phase margin
-- Slew rate
-- Power dissipation
-- DRC/LVS verification
+```text
+Digital Logic Design
+    ↓
+Verilog / SystemVerilog RTL
+    ↓
+Testbench Development
+    ↓
+Waveform Debugging & Timing Verification
+    ↓
+RISC-V RV32I Architecture
+    ↓
+AXI4-Lite / APB SoC Integration
+    ↓
+FPGA Prototyping
+    ↓
+Frontend Digital IC Design Engineer
+```
 
 ---
 
@@ -155,5 +170,10 @@ Design focus:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=trungpham141205&layout=compact&theme=tokyonight" height="170" />
 </p>
 
+---
 
+## Contact
 
+- Email: **pquoctrung141205@gmail.com**
+- LinkedIn: **https://www.linkedin.com/in/YOUR-LINKEDIN-ID**
+- GitHub: **https://github.com/trungpham141205**

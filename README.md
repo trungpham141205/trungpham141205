@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Trung Pham</h1>
 
 <h3 align="center">
-Digital IC Design | RTL Design | Computer Architecture
+Digital IC Design | RTL Design
 </h3>
 
 ---

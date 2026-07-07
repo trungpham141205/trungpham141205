@@ -46,4 +46,4 @@ CMOS full adder and 4-bit ripple carry adder design with schematic, layout, DRC,
 ## Contact
 
 Email: pquoctrung141205@gmail.com  
-LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN-ID
+LinkedIn: https://www.linkedin.com/in/pham-quoc-trung/

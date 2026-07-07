@@ -6,7 +6,7 @@ Digital IC Design | RTL Design | Computer Architecture
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 I am an Electronics and Telecommunications Engineering student at **VNUHCM - University of Science**. My engineering passion lies in building clean, verifiable, and timing-aware digital hardware systems—from RTL simulation to FPGA prototyping. 
 
@@ -14,7 +14,7 @@ Currently, I am actively seeking **Master's degree opportunities in Microelectro
 
 ---
 
-## 🎯 Current Focus
+## Current Focus
 
 - Designing synthesizable RTL using **Verilog** and **SystemVerilog**.
 - Developing and verifying a **RISC-V RV32I** single-cycle CPU.
@@ -23,7 +23,7 @@ Currently, I am actively seeking **Master's degree opportunities in Microelectro
 
 ---
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 ### HDL, Verification & EDA Tools
 <p>

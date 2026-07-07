@@ -4,18 +4,6 @@
 Frontend Digital IC Design | RTL Design | Verification | AXI5-Full | FPGA
 </h3>
 
-<p align="center">
-  <a href="mailto:pquoctrung141205@gmail.com">
-    <img src="https://img.shields.io/badge/Email-pquoctrung141205%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID">
-    <img src="https://img.shields.io/badge/LinkedIn-Trung%20Pham-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/trungpham141205">
-    <img src="https://img.shields.io/badge/GitHub-trungpham141205-black?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
 ---
 
 ## About Me
@@ -132,20 +120,3 @@ Current focus:
 - Register-based control logic
 - Clean module interface definition
 - Simulation-driven debugging
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=trungpham141205&show_icons=true&theme=tokyonight" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=trungpham141205&layout=compact&theme=tokyonight" height="170" />
-</p>
-
----
-
-## Contact
-
-- Email: **pquoctrung141205@gmail.com**
-- LinkedIn: **https://www.linkedin.com/in/YOUR-LINKEDIN-ID**
-- GitHub: **https://github.com/trungpham141205**

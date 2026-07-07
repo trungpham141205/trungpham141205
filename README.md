@@ -9,7 +9,7 @@ Frontend Digital IC Design | RTL Design | FPGA
 ## About Me
 
 I am an Electronics and Telecommunications Engineering student at  
-**VNUHCM - University of Science**, focusing on **Frontend Digital IC Design**, **RTL Design**, **Functional Verification**, **AXI5-Full bus protocol**, and **FPGA prototyping**.
+**VNUHCM - University of Science**, focusing on **Frontend Digital IC Design**, **RTL Design** and **FPGA prototyping**.
 
 My engineering interests are centered around building clean, verifiable, and timing-aware digital hardware systems from RTL simulation to FPGA prototype.
 

@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Trung Pham</h1>
 
 <h3 align="center">
-Digital IC Design Intern | RTL Design | RISC-V CPU | AXI5 | FPGA
+Frontend Digital IC Design | RTL Design | FPGA
 </h3>
 
 ---
@@ -19,22 +19,70 @@ My engineering interests are centered around building clean, verifiable, and tim
 
 - Designing synthesizable RTL using **Verilog** and **SystemVerilog**
 - Developing and verifying a **RISC-V RV32I single-cycle CPU**
-- Practicing **self-checking testbenches**, directed testing, waveform debugging, and timing-aware verification
+- Practicing **self-checking testbench**, directed testing, waveform debugging, and timing-aware verification
 - Running RTL simulation and debugging with **Synopsys VCS**, **QuestaSim**, and **ModelSim**
-- Working on **AXI5-Full** interface logic, burst transaction behavior, and DMA-oriented SoC integration
-- Prototyping digital systems on FPGA using **Quartus**, **SignalTap**, and related FPGA toolchains
+- Working with **AXI5-Lite / AXI5-Full** interface logic, VALID/READY handshake, burst transactions, and DMA-oriented SoC integration
+- Prototyping digital systems on FPGA using **Intel Quartus Prime**, **SignalTap**, and related FPGA toolchains
 
 ---
 
 ## Technical Skills
 
-| Area | Skills |
-|---|---|
-| **HDL & RTL Design** | Verilog, SystemVerilog, synthesizable RTL, FSM, datapath/control design |
-| **Computer Architecture & SoC** | RISC-V RV32I, single-cycle CPU, AXI5-based integration, memory-mapped I/O, DMA IP, accelerator integration |
-| **Verification & Simulation** | Self-checking testbench, directed testing, functional simulation, waveform debugging, Synopsys VCS, QuestaSim, ModelSim |
-| **FPGA Implementation** | Intel Quartus Prime, SignalTap, Gowin IDE, DE1-SoC, Tang Primer 20K Lite |
-| **Programming & Tools** | C/C++, Python, Tcl basics, Git, Visual Studio Code, Vim, Linux |
+### HDL & RTL Design
+
+<p>
+  <img src="https://img.shields.io/badge/-Verilog-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-SystemVerilog-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Synthesizable%20RTL-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-FSM-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Datapath%2FControl-purple?style=for-the-badge" />
+</p>
+
+### Verification & Simulation
+
+<p>
+  <img src="https://img.shields.io/badge/-Self--Checking%20Testbench-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Directed%20Testing-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Functional%20Simulation-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Waveform%20Debugging-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Synopsys%20VCS-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-QuestaSim-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-ModelSim-lightgrey?style=for-the-badge" />
+</p>
+
+### Computer Architecture & SoC
+
+<p>
+  <img src="https://img.shields.io/badge/-RISC--V%20RV32I-black?style=for-the-badge&logo=riscv&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Single--Cycle%20CPU-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-AXI5--Lite-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-AXI5--Full-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Memory--Mapped%20I%2FO-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-DMA%20IP-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Accelerator%20Integration-red?style=for-the-badge" />
+</p>
+
+### FPGA Implementation
+
+<p>
+  <img src="https://img.shields.io/badge/-Intel%20Quartus%20Prime-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-SignalTap-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Gowin%20IDE-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-DE1--SoC-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Tang%20Primer%2020K%20Lite-purple?style=for-the-badge" />
+</p>
+
+### Programming & Tools
+
+<p>
+  <img src="https://img.shields.io/badge/-C%2FC%2B%2B-blue?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Python-yellow?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Tcl-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Git-red?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/-VS%20Code-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Vim-green?style=for-the-badge&logo=vim&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Linux-black?style=for-the-badge&logo=linux&logoColor=white" />
+</p>
 
 ---
 
@@ -48,30 +96,30 @@ Key work:
 
 - Designed the Program Counter, instruction decoder, control unit, register file, ALU, immediate generator, branch/jump logic, load/store unit, instruction/data memories, and write-back path
 - Implemented R-, I-, S-, B-, U-, and J-type instruction formats
-- Supported arithmetic, logical, shift, comparison, branch, jump, and byte/halfword/word memory-access operations
+- Supported arithmetic, logical, shift, signed/unsigned comparison, branch, jump, and byte/halfword/word memory-access operations
 - Verified individual modules and the complete CPU using directed and self-checking testbenches
-- Loaded compiled programs through `program.hex` and validated CPU behavior on DE1-SoC FPGA using SignalTap
-- Achieved timing closure with no timing violations, +3.923 ns worst setup slack, and 62.2 MHz estimated Fmax at a 50 MHz system clock
+- Loaded compiled programs through `program.hex` and validated PC, instruction, RegWrite, destination-register, and write-back behavior on DE1-SoC FPGA using SignalTap
+- Achieved timing closure with no timing violations, +3.923 ns worst setup slack, 62.2 MHz estimated Fmax, and CPI = 1 at a 50 MHz system clock
 
 ---
 
-### AXI-Based SoC Integration with CNN Accelerator
+### AXI5-Lite SoC Integration with CNN Accelerator
 
-A memory-mapped SoC integration project where a custom RISC-V CPU configures, starts, monitors, and retrieves results from a CNN hardware accelerator.
+An AXI5-Lite-based SoC integration project where a custom RISC-V CPU configures, starts, monitors, and retrieves results from a CNN hardware accelerator through memory-mapped software operations.
 
 Key work:
 
-- Implemented AXI-style VALID/READY channel handshake behavior
-- Kept address, data, and control payloads stable until handshake completion
-- Added CPU stall control to preserve PC, register-file state, address, and transaction data during multi-cycle bus transfers
-- Built a software-controlled accelerator flow using `program.hex`, control registers, completion polling, result readback, and RAM storage
+- Implemented the AW, W, B, AR, and R channels using VALID/READY handshake control
+- Kept transaction payloads stable until handshake completion
+- Added CPU stall control to preserve PC, register-file state, address, and transaction data throughout multi-cycle AXI transfers
+- Built a software-controlled accelerator flow using `program.hex`, START control register write, completion polling, classification readback, and RAM storage
 - Verified end-to-end CNN accelerator execution flow across multiple input samples
 
 ---
 
 ### AXI5-Full Interface & DMA IP Integration
 
-Ongoing RTL development for upgrading the processor memory interface toward AXI5-Full and preparing the SoC architecture for DMA-based data movement.
+Ongoing RTL development for upgrading the processor memory interface from AXI5-Lite to AXI5-Full and preparing the SoC architecture for DMA-based data movement.
 
 Current work:
 

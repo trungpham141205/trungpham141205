@@ -1,14 +1,14 @@
 <h1 align="center">Hi 👋, I'm Trung Pham</h1>
 
 <h3 align="center">
-Digital IC Design | RTL Design
+Digital IC Design | RTL Design | Computer Architecture
 </h3>
 
 ---
 
 ## About Me
 
-I'm an Electronics and Telecommunications Engineering student at **VNUHCM - University of Science**, focused on building clean, verifiable, and timing-aware digital hardware — from RTL simulation to FPGA prototyping. I'm currently seeking **Master's opportunities in Microelectronics / IC Design** to deepen my work in computer architecture and secure hardware.
+I'm an Electronics and Telecommunications Engineering student at **VNUHCM - University of Science**, focused on building clean, verifiable, and timing-aware digital hardware — from RTL simulation to FPGA prototyping. Open to **Master's research opportunities in Microelectronics / IC Design**, as well as **RTL/hardware engineering roles**.
 
 🔭 **Currently building:** a RISC-V-based Secure SoC (AXI4/AXI5 interconnect, 6 cryptographic accelerators, CNN inference engine) for two FPGA design competitions — Oct 2026.
 

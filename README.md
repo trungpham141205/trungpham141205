@@ -23,7 +23,7 @@ Frontend Digital IC Design | RTL Design | Verification | RISC-V SoC | FPGA
 I am an Electronics and Telecommunications Engineering student at  
 **VNUHCM - University of Science**, focusing on **Frontend Digital IC Design**, **RTL Design**, **Functional Verification**, **RISC-V SoC**, and **FPGA prototyping**.
 
-My engineering interests are centered around building clean, verifiable, and timing-aware digital hardware systems from RTL to FPGA prototype.
+My engineering interests are centered around building clean, verifiable, and timing-aware digital hardware systems from RTL simulation to FPGA prototype.
 
 ---
 
@@ -34,6 +34,7 @@ My engineering interests are centered around building clean, verifiable, and tim
 - Designing **AXI4-Lite interconnect** and **AXI-to-APB bridge**
 - Developing **UART/SPI memory-mapped peripherals**
 - Practicing **testbench development**, waveform debugging, and timing-aware verification
+- Running RTL simulation and debugging with **Synopsys VCS**, **QuestaSim**, and **ModelSim**
 - Exploring **hardware security** through AES acceleration and bus-level isolation
 
 ---
@@ -46,6 +47,7 @@ My engineering interests are centered around building clean, verifiable, and tim
   <img src="https://img.shields.io/badge/Verilog-RTL%20Design-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/SystemVerilog-RTL%20%26%20TB-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Testbench-Functional%20Verification-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Synopsys%20VCS-RTL%20Simulation-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Waveform-Debugging-green?style=for-the-badge" />
 </p>
 
@@ -82,6 +84,7 @@ My engineering interests are centered around building clean, verifiable, and tim
 ### Tools
 
 <p>
+  <img src="https://img.shields.io/badge/Synopsys%20VCS-RTL%20Simulation-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vivado-FPGA%20Design-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Quartus%20Prime-FPGA%20Design-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/QuestaSim-RTL%20Simulation-green?style=for-the-badge" />
@@ -121,6 +124,7 @@ Included designs:
 - Setup/Hold violation testbench
 - Recovery/Removal timing verification
 - Worst-case timing path analysis
+- RTL simulation with Synopsys VCS / QuestaSim / ModelSim
 - Waveform-based debugging
 
 ---
@@ -138,28 +142,6 @@ Current design focus:
 - APB SPI peripheral
 - Register map design
 - Memory-mapped software access
-
----
-
-## Learning Roadmap
-
-```text
-Digital Logic Design
-    ↓
-Verilog / SystemVerilog RTL
-    ↓
-Testbench Development
-    ↓
-Waveform Debugging & Timing Verification
-    ↓
-RISC-V RV32I Architecture
-    ↓
-AXI4-Lite / APB SoC Integration
-    ↓
-FPGA Prototyping
-    ↓
-Frontend Digital IC Design Engineer
-```
 
 ---
 

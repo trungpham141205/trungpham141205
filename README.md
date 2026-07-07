@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Trung Pham</h1>
 
 <h3 align="center">
-Frontend Digital IC Design | RTL Design | Verification | AXI5-Full | FPGA
+Frontend Digital IC Design | RTL Design | FPGA
 </h3>
 
 ---

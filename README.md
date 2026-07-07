@@ -31,7 +31,6 @@ Currently, I am actively seeking **Master's degree opportunities in Microelectro
   <img src="https://img.shields.io/badge/-SystemVerilog-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/-Synopsys%20VCS-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/-QuestaSim-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-ModelSim-lightgrey?style=for-the-badge" />
 </p>
 
 ### Architecture & FPGA
@@ -48,9 +47,8 @@ Currently, I am actively seeking **Master's degree opportunities in Microelectro
 <p>
   <img src="https://img.shields.io/badge/-C%2FC%2B%2B-blue?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/-Python-yellow?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-MATLAB-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/-Red%20Hat%20(RHEL)-cc0000?style=for-the-badge&logo=redhat&logoColor=white" />
-  <img src="https://img.shields.io/badge/-NeoVim-019833?style=for-the-badge&logo=neovim&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Vim-019833?style=for-the-badge&logo=neovim&logoColor=white" />
 </p>
 
 ---

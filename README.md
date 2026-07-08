@@ -4,6 +4,15 @@
 Digital IC Design | RTL Design
 </h3>
 
+<p align="center">
+  <a href="https://trungpham141205.github.io/portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-00bcd4?style=for-the-badge&logo=githubpages&logoColor=white" />
+  </a>
+  <a href="https://github.com/trungpham141205" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-trungpham141205-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
 ---
 
 ## About Me

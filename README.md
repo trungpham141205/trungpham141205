@@ -12,10 +12,6 @@ Digital IC Design | RTL Design
   <a href="https://github.com/trungpham141205" target="_blank">
     <img src="https://img.shields.io/badge/GITHUB-MY%20PROFILE-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
   </a>
-
-  <a href="https://github.com/trungpham141205/portfolio" target="_blank">
-    <img src="https://img.shields.io/badge/PORTFOLIO-SOURCE%20CODE-F59E0B?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio Source Code" />
-  </a>
 </p>
 
 ---

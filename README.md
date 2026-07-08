@@ -8,10 +8,6 @@ Digital IC Design | RTL Design
   <a href="https://trungpham141205.github.io/portfolio/" target="_blank">
     <img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-CLICK%20TO%20OPEN-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio - Click to Open" />
   </a>
-
-  <a href="https://github.com/trungpham141205" target="_blank">
-    <img src="https://img.shields.io/badge/GITHUB-MY%20PROFILE-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
-  </a>
 </p>
 
 ---

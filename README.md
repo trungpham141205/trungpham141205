@@ -1,73 +1,71 @@
-<h1 align="center">Hi 👋, I'm Trung Pham</h1>
-
-<h3 align="center">
-Digital IC Design | RTL Design
-</h3>
+<h1 align="center">Pham Quoc Trung</h1>
 
 <p align="center">
-  <a href="https://trungpham141205.github.io/portfolio/" target="_blank">
-    <img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-CLICK%20TO%20OPEN-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio - Click to Open" />
+  <strong>RTL Design · Design Verification · Digital IC & FPGA Systems</strong>
+</p>
+
+<p align="center">
+  Electronics and Telecommunications Engineering student at VNUHCM – University of Science,
+  building specification-driven and verifiable digital hardware.
+</p>
+
+<p align="center">
+  <a href="https://trungpham141205.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/Interactive%20Portfolio-Open-7C3AED?style=flat-square&logo=googlechrome&logoColor=white" alt="Open interactive portfolio" />
+  </a>
+  <a href="https://github.com/trungpham141205?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-RTL%20Projects-111827?style=flat-square&logo=github" alt="Browse RTL projects" />
   </a>
 </p>
 
----
+## Engineering profile
 
-## About Me
+I focus on the point where architecture becomes trustworthy RTL: clarifying the specification, defining cycle-accurate behavior, partitioning the microarchitecture, writing synthesizable SystemVerilog, and verifying normal, boundary, reset, and error scenarios.
 
-I'm an Electronics and Telecommunications Engineering student at **VNUHCM - University of Science**, focused on building clean, verifiable, and timing-aware digital hardware — from RTL simulation to FPGA prototyping. Open to **Master's research opportunities in Microelectronics / IC Design**, as well as **RTL/hardware engineering roles**.
+My project path progresses from arithmetic blocks and FSMs to FIFOs, RISC-V processors, pipelined datapaths, and SoC-level CPU/DMA integration.
 
-🔭 **Currently building:** a RISC-V-based Secure SoC (AXI4/AXI5 interconnect, 6 cryptographic accelerators, CNN inference engine) for two FPGA design competitions — Oct 2026.
+| Focus area | Current practice |
+|---|---|
+| RTL design | Verilog/SystemVerilog, combinational and sequential logic, FSMs, pipelining, parameterized IP |
+| Design verification | Self-checking testbenches, reference models, scoreboards, assertions, functional corner cases, waveform debug |
+| Computer architecture | RV32I datapath/control, memory systems, MMIO, DMA, AXI integration |
+| CDC and reset | Gray-code pointer crossing, two-flop synchronization, asynchronous assertion and synchronous release |
+| Implementation | Quartus, Questa/ModelSim, Yosys/OpenSTA entry flows, SDC, FPGA prototyping |
+| Software support | C/C++, Python, bare-metal firmware, host-side test automation |
 
----
+## Selected projects
 
-## Technical Skills
+| Project | RTL / architecture | Verification evidence |
+|---|---|---|
+| [16×16 Wallace Tree Multiplier](https://github.com/trungpham141205/Wallace_Tree_Multiplier_16x16_Pipeline_3_Stage) | Three-stage carry-save reduction pipeline with a 32-bit final adder | Queue scoreboard; committed Questa run checks 1,488 transactions with 0 errors |
+| [RV32I Single-Cycle CPU](https://github.com/trungpham141205/RV32I_Single_Cycle) | Modular SystemVerilog RV32I datapath, control, memories, and software-driven integration | Unit regressions plus committed integrated result of 10 PASS / 0 FAIL |
+| [RV32I + AXI DMA SoC](https://github.com/trungpham141205/SoC-RV32I-CNN-) | RV32I CPU, memory-mapped DMA control, shared AXI RAM, and bare-metal firmware | Self-checking CPU + DMA + RAM integration flow |
+| [Asynchronous FIFO](https://github.com/trungpham141205/Asynchronous_FIFO_Gray_Code_Point) | Dual-clock FIFO with Gray pointers and domain-local reset release | RTL and functional specification; verification environment is the next milestone |
+| [Synchronous FIFO](https://github.com/trungpham141205/Synchronous_FIFO) | Parameterized single-clock FIFO with explicit boundary semantics | Written verification plan covering reset, wrap, simultaneous access, overflow, and underflow |
 
-### HDL, Verification & EDA Tools
-<p>
-  <img src="https://img.shields.io/badge/-Verilog-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-SystemVerilog-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Synopsys%20VCS-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-QuestaSim-green?style=for-the-badge" />
-</p>
+## How I approach a hardware block
 
-### Architecture & Security
-<p>
-  <img src="https://img.shields.io/badge/-RISC--V%20RV32I-black?style=for-the-badge&logo=riscv&logoColor=white" />
-  <img src="https://img.shields.io/badge/-AMBA%20AXI4%2FAXI5-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Crypto%20Accelerators%20(AES%C2%B7SHA--256%C2%B7ASCON%C2%B7PRESENT%C2%B7ChaCha20%C2%B7PRINCE)-red?style=for-the-badge" />
-</p>
+```mermaid
+flowchart TD
+    A["Specification"] --> B["Microarchitecture"]
+    B --> C["Synthesizable RTL"]
+    C --> D["Self-checking DV"]
+    D --> E["Synthesis and timing"]
+    E --> F["FPGA or ASIC handoff"]
+```
 
-### FPGA & Boards
-<p>
-  <img src="https://img.shields.io/badge/-Intel%20Quartus-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-SignalTap-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-DE1--SoC%20(Cyclone%20V)-green?style=for-the-badge" />
-</p>
+The goal is not only to make a waveform look correct. I aim to make assumptions, interface rules, latency, reset behavior, CDC boundaries, verification gaps, and implementation evidence visible enough for another engineer to review.
 
-### Programming & Environment
-<p>
-  <img src="https://img.shields.io/badge/-C%2FC%2B%2B-blue?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Python-yellow?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Red%20Hat%20(RHEL)-cc0000?style=for-the-badge&logo=redhat&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Vim-019733?style=for-the-badge&logo=vim&logoColor=white" />
-</p>
+## Current direction
 
-🕒 Also practicing timing closure: setup/hold analysis, SDF back-annotation, and gate-level netlist (GLN) simulation.
+- Deepening RTL design and Design Verification practice through reusable testbench components and assertion-based checks.
+- Developing timing-aware datapaths and clean pipeline interfaces.
+- Extending CPU, DMA, accelerator, and shared-memory work toward a more complete SoC flow.
+- Building toward full ASIC implementation literacy from RTL handoff through synthesis, STA, and physical-design collaboration.
 
----
+## Contact
 
-## Featured Projects
+- [Interactive hardware portfolio](https://trungpham141205.github.io/portfolio/)
+- [GitHub repositories](https://github.com/trungpham141205?tab=repositories)
 
-### [RISC-V RV32I Single-Cycle CPU on FPGA](https://github.com/trungpham141205/RV32I_Single_Cycle.git)
-A modular 32-bit processor implementing the RV32I instruction subset, developed from RTL design to on-board validation.
-* **Architecture:** Custom datapath supporting R, I, S, B, U, and J-type instructions.
-* **Verification:** Validated via self-checking testbenches and compiled `program.hex` execution.
-* **Implementation:** Deployed on DE1-SoC FPGA achieving +3.923 ns worst setup slack and 62.2 MHz Fmax with zero timing violations.
-
-### [AXI5-Lite SoC Integration with CNN Accelerator](https://github.com/trungpham141205/SoC-RV32I-CNN-.git)
-A custom hardware-software environment where a RISC-V CPU manages a CNN hardware accelerator.
-* **Protocol:** Implemented AXI5-Lite channels (AW, W, B, AR, R) with strict VALID/READY handshakes.
-* **Control Logic:** Developed precise CPU stall control to preserve register states during multi-cycle memory-mapped transactions.
-* **Flow:** End-to-end software execution including START control, completion polling, and result readback.
-
----
+I am open to RTL Design, Digital IC Design, Design Verification, FPGA/SoC collaboration, internship, and research opportunities.

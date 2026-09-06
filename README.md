@@ -53,21 +53,3 @@ I'm an Electronics and Telecommunications Engineering student at **VNUHCM - Univ
 </p>
 
 🕒 Also practicing timing closure: setup/hold analysis, SDF back-annotation, and gate-level netlist (GLN) simulation.
-
----
-
-## Featured Projects
-
-### [RISC-V RV32I Single-Cycle CPU on FPGA](https://github.com/trungpham141205/RV32I_Single_Cycle.git)
-A modular 32-bit processor implementing the RV32I instruction subset, developed from RTL design to on-board validation.
-* **Architecture:** Custom datapath supporting R, I, S, B, U, and J-type instructions.
-* **Verification:** Validated via self-checking testbenches and compiled `program.hex` execution.
-* **Implementation:** Deployed on DE1-SoC FPGA achieving +3.923 ns worst setup slack and 62.2 MHz Fmax with zero timing violations.
-
-### [AXI5-Lite SoC Integration with CNN Accelerator](https://github.com/trungpham141205/SoC-RV32I-CNN-.git)
-A custom hardware-software environment where a RISC-V CPU manages a CNN hardware accelerator.
-* **Protocol:** Implemented AXI5-Lite channels (AW, W, B, AR, R) with strict VALID/READY handshakes.
-* **Control Logic:** Developed precise CPU stall control to preserve register states during multi-cycle memory-mapped transactions.
-* **Flow:** End-to-end software execution including START control, completion polling, and result readback.
-
----
